@@ -1,0 +1,48 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> 
+<html class="no-js" lang="en"> 
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>{{ page.title }}</title>
+	{% if page.date %}<meta http-equiv="date" content="{{page.date |date: '%A, %d  %Y %H:%M:%S GMT'}}" />{% endif %}
+	{% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+	{% if site.description %}<meta name="description" content="{{ site.description }}">{% endif %}
+	{% if site.author.name %}<meta name="author" content="{{ site.author.name }}">{% endif %}
+	<meta name="viewport" content="width=device-width">
+	
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/bootstrap-responsive.css">
+	<link rel="stylesheet" href="/css/style.css">
+	
+	<script src="/js/libs/modernizr-2.5.2.min.js"></script>
+	
+	<!--- Font --->
+	<link href='http://fonts.googleapis.com/css?family=Exo|Parisienne' rel='stylesheet' type='text/css'>
+	
+</head>
+
+<body>
+	<!-- container -->
+    <div class="container">
+		{{ content }}
+		<hr>
+		<footer>
+			<p id="copyright">&copy; 2012</p>
+		</footer>
+	</div>
+	<!-- /container -->
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="/js/libs/jquery-1.7.1.min.js"><\/script>')</script>
+	
+	<script src="/js/libs/bootstrap/transition.js"></script>
+	<script src="/js/libs/bootstrap/collapse.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+auto: true
+permalink: /:title
+pygments: true
+exclude:
+- README.md
+
+title: 45 coisas antes dos 45
+description: Este e meu blog sobre 45 coisas que eu quero realizar antes dos 45
+author:
+    name:
+    email:
+    github:
+    twitter:

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class="row">
+	<div class="span8 offset2">
+		<p id="post-title">{{ page.title }}</p>	
+	</div>
+</div>
+{% if page.status > 0 %}
+<div class="row">
+	<div class="span8 offset2">
+		<div class="progress progress-info progress-striped">
+			<div class="bar" style="width: {{ page.status }}%;">{{ page.status }}%</div>
+		</div>
+		<div class="well">
+			{{ content }}
+		</div>
+	</div>
+</div>
+{% endif %}
+

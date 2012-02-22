@@ -1,0 +1,75 @@
+---
+layout: default
+title: 45 coisas antes dos 45
+description: pagina inicial do site
+status: 100
+---
+
+<div class="hero-unit">
+	<h1 id="default-title">45 coisas antes dos 45</h1>
+	<p id="default-subtitle">Eu tenho uma porção de coisas grandes pra conquistar e eu não posso ficar aqui parado.</p>
+</div>
+
+<div class="row">
+	<!--- First column --->
+	<div class="span4 offset2">
+	<div class="list-item">
+	{% for post in site.posts limit:22 %}
+		{% if post.status == 100 %}
+			<span class="label label-success">{{ post.status }}%</span>
+		{% else %}
+			{% if post.status >= 80 %}
+				<span class="label label-warning">{{ post.status }}%</span>
+			{% else %}
+				{% if post.status >= 50 %}
+					<span class="label label-important">{{ post.status }}%</span>
+				{% else %}
+					{% if post.status >= 10 %}
+						<span class="label label-info">{{ post.status }}%</span>
+					{% else %}
+						<span class="label label">{{ post.status }}%</span>
+					{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endif %}
+		{% if post.status > 0 %}
+			<a href="{{ post.url }}" rel="tooltip" title="Ver detalhes" >{{ post.title }}</a>
+		{% else %}
+			{{ post.title }}
+		{% endif %}
+		<br />
+	{% endfor %}
+	</div>
+	</div>
+
+	<!--- Second column --->
+	<div class="span4">
+	<div class="list-item">
+	{% for post in site.posts offset:22 %}
+		{% if post.status == 100 %}
+			<span class="label label-success">{{ post.status }}%</span>
+		{% else %}
+			{% if post.status >= 80 %}
+				<span class="label label-warning">{{ post.status }}%</span>
+			{% else %}
+				{% if post.status >= 50 %}
+					<span class="label label-important">{{ post.status }}%</span>
+				{% else %}
+					{% if post.status >= 10 %}
+						<span class="label label-info">{{ post.status }}%</span>
+					{% else %}
+						<span class="label label">{{ post.status }}%</span>
+					{% endif %}
+				{% endif %}
+			{% endif %}
+		{% endif %}
+		{% if post.status > 0 %}
+			<a href="{{ post.url }}" rel="tooltip" title="Ver detalhes" >{{ post.title }}</a>
+		{% else %}
+			{{ post.title }}
+		{% endif %}
+		<br />
+	{% endfor %}
+	</div>
+	</div>
+</div>
