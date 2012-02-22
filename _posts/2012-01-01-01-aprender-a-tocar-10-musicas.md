@@ -3,7 +3,7 @@ layout: post
 title: Aprender 10 musicas no violao
 number: 01
 img:
-status: 0
+status: 10
 date: 2012-02-14
 ---
 
