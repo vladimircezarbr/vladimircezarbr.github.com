@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aprender a falar Frances
+title: Aprender a falar Francês
 number: 11
 img:
 status: 0

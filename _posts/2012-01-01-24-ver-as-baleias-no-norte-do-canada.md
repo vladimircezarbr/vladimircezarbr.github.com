@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ver as baleias no Norte do Canada
+title: Ver as baleias no Norte do Canadá
 number: 24 
 img:
 status: 0

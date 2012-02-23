@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tirar carteira de habilitacao de motocicleta
+title: Tirar carteira de habilitação de motocicleta
 number: 06
 img:
 status: 0

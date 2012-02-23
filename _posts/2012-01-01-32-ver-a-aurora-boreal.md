@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ver a aurora boreal
+title: Ver a Aurora Boreal
 number: 32
 img:
 status: 0

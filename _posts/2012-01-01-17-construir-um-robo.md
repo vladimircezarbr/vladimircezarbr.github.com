@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Contruir um robo
+title: Contruir um robô
 number: 17
 img:
 status: 0

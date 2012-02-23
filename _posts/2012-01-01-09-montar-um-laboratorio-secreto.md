@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Montar um laboratorio secreto
+title: Montar um laboratório secreto
 number: 9
 img:
 status: 0

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aprender a fazer pao
+title: Aprender a fazer pão
 number: 26
 img:
 status: 0

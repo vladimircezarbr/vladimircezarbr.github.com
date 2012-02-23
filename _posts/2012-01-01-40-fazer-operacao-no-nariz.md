@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fazer operacao no nariz
+title: Fazer operação no nariz
 number: 40
 img:
 status: 0

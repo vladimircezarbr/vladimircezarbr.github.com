@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Andar de Balao
+title: Andar de Balão
 number: 42
 img:
 status: 0

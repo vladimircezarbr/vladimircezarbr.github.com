@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ter meu proprio negocio
+title: Ter meu proprio negócio
 number: 14
 img:
 status: 0

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Adotar outro animal de estimacao
+title: Adotar outro animal de estimação
 number: 05
 img:
 status: 0

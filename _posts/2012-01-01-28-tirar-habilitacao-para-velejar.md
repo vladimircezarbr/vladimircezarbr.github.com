@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Tirar habilitacao para velejar
+title: Tirar habilitação para velejar
 number: 28
 img:
 status: 0

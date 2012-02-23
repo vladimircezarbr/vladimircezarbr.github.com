@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aprender outra linguagem de programacao
+title: Aprender outra linguagem de programação
 number: 16
 img:
 status: 0

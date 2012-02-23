@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aprender 10 musicas no violao
+title: Aprender 10 músicas no violão
 number: 01
 img:
 status: 0
